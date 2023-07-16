@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        SortBubble sortBubble = new SortBubble();
         SortPyramid sortPyramid = new SortPyramid();
         ArrayPreparation arrayPreparation = new ArrayPreparation();
         ArrayList<Integer> array = new ArrayList<>();
@@ -15,9 +14,5 @@ public class Main {
         System.out.println();
         arrayPreparation.arrayPrintArrayList(array, true);
         System.out.println();
-
-
-
-
     }
 }
